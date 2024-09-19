@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background: rgb(255, 4, 170);
+  background: linear-gradient(
+    153deg,
+    rgba(255, 4, 170, 1) 0%,
+    rgba(156, 74, 141, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Satisfy", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+    background: #ffb3e5;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 10px;
+    width: 450px;
+    margin: 5px;
+}
+
+.btn{
+    background-color: #000000;
+    color: #9c4a8d;
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+
+.anime-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid #ff04aa;
+}
+ h1,h3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+
+ .anime-name{
+    margin: 20px;
+    background-color: #fa87d3;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+ }
+
+ .anime-container{
+    display: none;
+ }
